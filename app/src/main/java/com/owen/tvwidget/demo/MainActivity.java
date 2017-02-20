@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0; i<15; i++) {
             mTabLayout.addTab(mTabLayout.newTab().setText("标题"+i), i == 0);
             mTabLayout2.addTab(mTabLayout2.newTab().setText("标题"+i));
-            mTabLayout3.addTab(mTabLayout3.newTab().setText("标题"+i));
+//            mTabLayout3.addTab(mTabLayout3.newTab().setText("标题"+i));
         }
         
         

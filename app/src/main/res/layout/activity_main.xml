@@ -53,12 +53,24 @@
         app:tabIndicatorHeight="@dimen/y15"
         app:tabIndicatorBackgroundColor="#887766"
         app:tabIndicatorBackgroundHeight="@dimen/x4"
-        app:tabMinWidth="@dimen/x220"
-        app:tabScrollMode="scrollable"
+        app:tabMinWidth="@dimen/x160"
+        app:tabScrollMode="fixed"
         app:tabGravity="center"
         app:tabPaddingBottom="@dimen/x12"
         app:tabTexSize="@dimen/x22"
-        app:tabTextColor="@drawable/selector_tab_font_color"/>
+        app:tabTextColor="@drawable/selector_tab_font_color">
+        
+        <com.tv.boost.widget.tablayout.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题1"/>
+        
+        <com.tv.boost.widget.tablayout.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题2"/>
+        
+    </com.tv.boost.widget.tablayout.TvTabLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
