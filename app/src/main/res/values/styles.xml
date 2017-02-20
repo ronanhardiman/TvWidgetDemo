@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="icon_button_style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:focusable">true</item>
+        <item name="tv_textColor">@color/colorPrimary</item>
+        <item name="tv_iconWidth">50dp</item>
+        <item name="tv_iconHeight">50dp</item>
+        <item name="tv_textPadding">4dp</item>
+        <item name="tv_textSize">20sp</item>
+        <item name="tv_iconMoveOffset">60dp</item>
+    </style>
+
+</resources>
